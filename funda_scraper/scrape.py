@@ -54,7 +54,7 @@ class FundaScraper:
         else:
             return {
                 "close": f"{self.base_url}/huur/{self.area}/verhuurd/",
-                "open": f"{self.base_url}/huur/{self.area}/",
+                "open": f"{self.base_url}/huur/{self.area}/1-dag/",
             }
 
     @property
